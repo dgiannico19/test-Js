@@ -3,7 +3,7 @@ import "./App.css";
 import moment from "moment";
 import { format } from "date-fns";
 import { Button } from "@janiscommerce/ui-web";
-import Mapa from "./Mapa";
+
 const App = () => {
   const date = "2020-12-31T18:18:43.928Z";
   const formato = "dddd";
@@ -31,7 +31,6 @@ const App = () => {
         <input type="text" />
         <Button>Hola</Button>
       </form>
-      <Mapa />
       <div
         className="card"
         style={{ display: "flex", flexDirection: "column", gap: "20px" }}
